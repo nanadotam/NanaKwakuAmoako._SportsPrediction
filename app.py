@@ -13,12 +13,21 @@ from sklearn.ensemble import VotingRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # Define the columns
-cols = [
-    'potential', 'value_eur', 'wage_eur', 'age',
-    'international_reputation', 'shooting', 'passing', 'dribbling',
-    'physic', 'attacking_crossing', 'attacking_short_passing',
-    'movement_reactions', 'mentality', 'technical_skills', 'goal_keeping'
-]
+cols = ['potential',
+ 'value_eur',
+ 'wage_eur',
+ 'age',
+ 'international_reputation',
+ 'shooting',
+ 'passing',
+ 'dribbling',
+ 'physic',
+ 'attacking_crossing',
+ 'attacking_short_passing',
+ 'movement_reactions',
+ 'goal_keeping',
+ 'technical_skills',
+ 'mentality']
 
 # Load the model
 def load_model(model_path):
